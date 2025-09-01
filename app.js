@@ -12,7 +12,7 @@ let stringDiez = '10'
 
 
 
-if (COMPARAR numeroUn y stringUn) {
+if (COMPARAR numeroUn == stringUn) {
 
   console.log('Las variables numeroUn y stringUn tienen el mismo valor, pero tipos diferentes')
 
@@ -24,7 +24,7 @@ if (COMPARAR numeroUn y stringUn) {
 
  
 
-if (COMPARAR numeroTreinta y stringTreinta) {
+if (COMPARAR numeroTreinta === stringTreinta) {
 
   console.log('Las variables numeroTreinta y stringTreinta tienen el mismo valor y el mismo tipo')
 
@@ -36,7 +36,7 @@ if (COMPARAR numeroTreinta y stringTreinta) {
 
  
 
-if (COMPARAR numeroDiez y stringDiez) {
+if (COMPARAR numeroDiez == stringDiez) {
 
   console.log('Las variables numeroDiez y stringDiez tienen el mismo valor, pero tipos diferentes')
 
