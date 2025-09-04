@@ -10,7 +10,7 @@ if (area === "Front-End") {
 
 const especialidadOFullstack = prompt("Escribe 1 para seguir especializándote en el área elegida o 2 para desarrollarte para convertirte en Fullstack");
 if (especialidadOFullstack == 1) {
-    alert("¡Sigue especializándote en ${lenguaje} para dominar el área de ${area}!");
+    alert(`¡Sigue especializándote en ${lenguaje} para dominar el área de ${area}!);
 } else if (especialidadOFullstack == 2) {
     alert("¡Es hora de comenzar a aprender otros lenguajes además de ${lenguaje} si quieres convertirte en Fullstack!");
 } else {
